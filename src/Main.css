@@ -1,0 +1,17 @@
+/* .main__Feed {
+    display: flex;
+} */
+
+.mainMessage {
+    display: flex;
+}
+
+.mainInbox {
+    display: flex;
+    flex: 30%;
+}
+
+.mainMessenger {
+    display: flex;
+    flex: 70%;
+}

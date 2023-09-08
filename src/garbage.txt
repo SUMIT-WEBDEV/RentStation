@@ -1,0 +1,138 @@
+messenger =>> css
+
+.chatMenu {
+  /* flex: 3.5; */
+}
+ 
+
+.chatMenuInput {
+  /* width: 90%; */
+  /* padding: 10px 0; */
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.chatBox {
+  /* flex: 5.5; */
+}
+
+.chatBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.chatBoxTop {
+  height: 100%;
+  overflow-y: scroll;
+  /* padding-right: 10px; */
+}
+
+.chatBoxBottom {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatMessageInput {
+  /* width: 80%; */
+  height: 90px;
+  padding: 10px;
+}
+
+.chatSubmitButton {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+
+.chatOnline {
+  /* flex: 3; */
+}
+
+.chatMenuWrapper,
+.chatBoxWrapper,
+.chatOnlineWrapper {
+  padding: 10px;
+  height: 100%;
+}
+
+.noConversationText {
+  position: absolute;
+  top: 10%;
+  font-size: 50px;
+  color: rgb(224, 220, 220);
+  cursor: default;
+}
+
+
+
+chat =>>> css
+
+.chat {
+
+    width: 100%;
+}
+
+.chat__Wrapper {
+    height: 85vh;
+    overflow-y: none;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+ background: url("https://image.shutterstock.com/image-vector/vector-seamless-mobile-apps-pattern-600w-283356059.jpg");
+  /* background-color: o; */
+  background-size: 100%;
+  background-position: top;
+  background: full;
+  /* flex: 1; */
+
+}
+
+.chat__Top {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: aqua;
+}
+
+.chat__Image {
+    width: 30px;
+    border-radius: 50%;
+    padding: 3px
+}
+
+.chat__topLeft {
+    display: flex;
+}
+
+.chat__Input {
+    background-color: grey;
+    /* display: block; */
+    flex: 1;
+    width: 90vw;
+    outline: none;
+    padding: 5px;
+}
+
+.chat__Bottom {
+    display: flex;
+}
+
+.chat__Mid {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    flex: 1;
+}

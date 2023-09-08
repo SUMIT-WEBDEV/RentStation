@@ -1,0 +1,269 @@
+.messenger {
+  /* height: calc(100vh - 70px); */
+  display: flex;
+  width: 100%;
+  overflow-x: none;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+
+.chat__Left {
+  display: flex;
+  flex: 35%;
+  /* background-color: aqua; */
+}
+
+.chat__topLeft {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  width: 900px;
+  padding: 5px 0px 10px 5px;
+  border-top-right-radius: 4px;  
+  border-top: 1px solid rgba(14,4,5,.2);
+  background-color: rgb(203, 201, 201);
+}
+.chat {
+  display: flex;
+  flex: 65%;
+  /* background-color: blueviolet; */
+  margin-top: 25px;
+  overflow-x: none;
+  flex-direction: column;
+  height: 80vh;
+}
+
+
+.chat__Top {
+  padding: 10px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* background-color: rgb(220, 215, 215); */
+  background-image:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Background.max-2800x2800.jpg");
+  background-size: 100%;
+  background-position: top;
+  background: full;
+  height: 100vh;
+  position: relative;
+  width: 900px;
+  /* padding: 30px; */
+  /* width: 800px; */
+  /* overflow-x: none; */
+  height: 60vh;
+  overflow-y: scroll;
+  
+  overflow-x: none;
+  
+  /* background-color: aqua; */
+}
+
+.chat__Top::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chat__Top::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+}
+
+.chat__Top::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  /* background-image: linear-gradient(180deg, grey 0%, #a2a3a3 99%); */
+  background-color: rgb(143, 141, 141);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+/* .chat__Top {
+  
+  scrollbar-width: thin;
+  scrollbar-color: #6969dd #e0e0e0;
+}
+
+.chat__Top::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chat__Top::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+}
+
+.chat__Top::-webkit-scrollbar {
+  height: 40px;
+} */
+
+/* .chat__Top::-webkit-scrollbar-track {
+  background-color: darkgrey;
+} */
+/*
+
+.chat__Top::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.chat__Top {
+  scrollbar-width: thin;
+} */
+
+
+
+.chat__Image {
+  width: 30px;
+  border-radius: 50%;
+  padding: 3px
+}
+
+
+.chat__Inputt {
+  /* background-color: grey; */
+  padding: 15px 5px 15px 10px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  outline: none;
+}
+
+textarea::placeholder {
+  color: rgb(190, 188, 188)
+}
+
+
+.chat__Input {
+  border-radius: 5px;
+  background-color: grey;
+  width: 100%;
+  outline: none;
+  padding: 10px 0px 10px 10px;
+  height: 48px;
+  color:#242424;
+  resize: none;
+  outline: none;
+  cursor:none;
+  overflow: hidden;
+}
+
+.chat__Bottom {
+  /* display: inline-block; */
+  padding: 10px;
+  align-items: center;
+  width: 900px;
+  display: flex;
+  height: 10vh;
+  background-color: rgb(220, 215, 215);
+  border-bottom: 1px solid rgba(14,4,5,.2);
+  border-bottom-right-radius: 4px;
+}
+
+.chat__Send > button {
+  font-size: 18px;
+  font-weight: 700;
+  color: #424242;
+  background-color:rgb(65, 169, 225) ;
+  /* background-color: red; */
+  padding: 10px 20px 10px 20px;
+  width: 100px;
+  /* margin: 4px */
+  border-radius: 4px;
+}
+
+.chat__Mid {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  flex: 1;
+}
+
+.chat__Message {
+  padding: 10px
+}
+
+.Who {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px 9px 15px 9px;
+  color: #242424
+}
+
+
+
+.chat__ProfilePic {
+  border-radius: 50%;
+  width: 40px;
+  align-items: center;
+  /* padding-right: 2px; */
+}
+
+
+.load__topLeft {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  width: 900px;
+  padding: 5px 0px 10px 5px;
+  border-top-right-radius: 4px;  
+  border-top: 1px solid rgba(14,4,5,.2);
+  background-color: rgb(203, 201, 201);
+}
+
+.load__imgtop {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  background-color: rgb(167, 164, 164) ;
+  padding: 4px;
+  margin-right:4px ;
+  color: rgb(167, 164, 164) 
+}
+
+.Whoo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+  /* padding: 15px 9px 15px 9px; */
+  color: rgb(167, 164, 164);
+  background-color: rgb(167, 164, 164);
+}
+
+/* .chat__Wrapper { */
+  /* height: 80vh; */
+  /* width: 70% */
+  /* margin-left: 10px; */
+/* margin-right: 50px; */
+/* margin-top: 15px; */
+/* margin-bottom: 10px; */
+/* background-color: o; */
+/* background-size: 100%; */
+/* background-position: top;
+background: full;
+background: url("https://image.shutterstock.com/image-vector/vector-seamless-mobile-apps-pattern-600w-283356059.jpg"); */
+/* overflow-y: scroll; */
+/* overflow-x: none; */
+/* } */
+
+
+/* _______________________________Spinner_________________________ */
+
+#loading-bar-spinner.spinner {
+  left: 60%;
+  /* margin-left: -20px; */
+  top: 50%;
+  /* margin-top: -20px; */
+  position: absolute;
+  z-index: 19 !important;
+  animation: loading-bar-spinner 400ms linear infinite;
+}
+
+#loading-bar-spinner.spinner .spinner-icon {
+  width: 40px;
+  height: 40px;
+  border:  solid 4px transparent;
+  border-top-color:  #00C8B1 !important;
+  border-left-color: #00C8B1 !important;
+  border-radius: 50%;
+}
+
+@keyframes loading-bar-spinner {
+0%   { transform: rotate(0deg);   transform: rotate(0deg); }
+100% { transform: rotate(360deg); transform: rotate(360deg); }
+}

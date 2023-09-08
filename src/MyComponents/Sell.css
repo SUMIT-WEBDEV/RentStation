@@ -1,0 +1,91 @@
+.sell {
+    width: 100%;
+    background-color: rgb(241, 234, 234);
+}
+
+.sell__Wrapper {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.sell__Wrapper1 {
+    width: 50%;
+    /* background-color: rgb(240, 237, 237); */
+    background-color: rgba(0,0,0,0.0.3);
+
+    padding: 20px 50px 20px 50px;
+    border: 0.5px solid rgba(14,4,5,.2);
+    border-radius: 4px; 
+    padding-left: 100px
+}
+
+.sell__Head {
+    width: 100%;
+}
+
+.sell__Head > h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    color: #3b3a3a;
+    width: 90%
+
+}
+
+.form-group > input {
+    background-color:rgb(216, 214, 214) ;
+    outline: none;
+    padding: 2px;
+    border-radius: 2px;
+    width: 500px;
+    height: 40px;
+    padding: 8px;
+    margin-top: 3px
+}
+
+.sell__Dropdown {
+    background-color:rgb(216, 214, 214) ;
+    outline: none;
+    padding: 2px;
+    border-radius: 2px;
+    width: 500px;
+    height: 40px;
+    padding: 8px;
+    margin-top: 3px
+}
+
+
+.form-group {
+    margin: 10px
+}
+
+.form-group > label {
+    font-size: 17px;
+    font-weight: 600;
+    color: #242424;
+}
+
+.form__button {
+    margin-top:20px;
+    width: 85%;
+    text-align: center;
+}
+
+.button{
+    font-size: 18px;
+    width: 45%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #424242;
+    /* background-color:rgb(216, 214, 214) ; */
+  background-color:rgb(65, 169, 225) ;
+
+}
+

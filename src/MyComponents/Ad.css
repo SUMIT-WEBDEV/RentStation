@@ -1,0 +1,145 @@
+.ad {
+    background-color: rgb(241, 234, 234);
+    display: flex;
+    /* margin: 20px; */
+    width: 100vw;
+    min-height: 50vh;
+    justify-content: center;
+    padding-bottom: 20px;
+    /* align-items: center; */
+}
+
+
+
+.ad__MyAds {
+    display: flex;
+    width: 90vw;
+    margin-bottom: 2px;
+    justify-content: center;
+    align-items: center;
+   
+    /* border: */
+}
+
+.ad__Wrapper {
+     display: flex;
+    padding: 6px;
+    width: 60vw;
+    height: auto;
+    align-items: center;
+    background-color: #fff; 
+    border: 1px solid rgba(14,4,5,.2);
+    border-radius: 4px;
+    /* justify-content: space-between; */
+}
+
+.ad__image {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px
+}
+
+.ad__profile {
+    display: flex;
+    flex: 12%;
+}
+
+.ad__Price >h2 {
+    padding-left: 10px;
+    display: flex;
+    flex: 70%;
+    /* color: #48cda5; */
+    color: #4BB543 ;
+}
+.ad__Price >h1 {
+    display: flex;
+    flex: 30%;
+    font-weight: 700;
+    color: #242424;
+}
+
+.ad__Price{
+    display: flex;
+    flex: 55%;
+}
+
+.ad__Icon {
+    display: flex;
+    flex: 13%;
+    justify-content: center;
+    cursor: pointer
+}
+
+.add__Title {
+    display: flex;
+    flex: 20%;
+    align-items: center;
+}
+
+
+.ad__Header {
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 0px 0px 0px */
+}
+
+.hel { 
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 6px;
+}
+
+.hel > h1 {
+    border-bottom: 5px solid #242424;
+    font-size: 24px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+
+/* ___________________________________LOAD__________________________________ */
+
+.ad__profileLoad {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+    background-color: rgb(220, 215, 215);
+    color: rgb(220, 215, 215);
+}
+
+
+.add__TitleLoad {
+    display: flex;
+    flex: 20%;
+    align-items: center;
+}
+
+.add__TitleLoad > h2 {
+    background-color: rgb(220, 215, 215);
+    color: rgb(220, 215, 215);
+}
+
+.ad__PriceLoad{
+    display: flex;
+    flex: 55%;
+}
+
+.ad__PriceLoad >h2 {
+    padding-left: 10px;
+    display: flex;
+    flex: 70%;
+    /* color: #48cda5; */
+    color: rgb(220, 215, 215);
+    background-color: rgb(220, 215, 215);
+}
+
+.ad__PriceLoad >h1 {
+    display: flex;
+    flex: 30%;
+    color: rgb(220, 215, 215);
+    background-color: rgb(220, 215, 215);
+}

@@ -1,0 +1,121 @@
+.message__img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.message {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    /* background-color: aqua; */
+}
+.message > .message__Text {
+  background-color:rgb(112, 191, 233) ;
+  min-width: 10px;
+  max-width: 400px;
+  min-height: 10px;
+  max-height: 100px;
+  /* min-height: 100px; */
+  border-radius: 7px;
+  padding: 5px 7px 5px 7px ;
+  margin-right: 14px;
+}
+
+.message.own {
+    display: flex;
+}
+
+h2 {
+    color: #242424;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.message__Text > h1 {
+    font-size: 13px;
+}
+
+.recievermsg > .message__Text {
+    /* width: 200px; */
+    background-color: rgb(181, 179, 179);
+    width: fit-content;
+    /* max-width: 300px; */
+    line-height: 17px;
+    border-radius: 7px;
+    padding: 8px;
+    max-width: 400px;
+    /* min-width: 100px;  */
+    min-height: 10px;
+    max-height: 100px;
+    margin-left: 40px;
+    padding: 5px 7px 5px 7px ;
+
+}
+
+.message__Text > span {
+    font-size: 10px;
+    display: flex;
+    color: #242424;
+    justify-content: flex-end;
+}
+
+.msg {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.msg > span {
+    margin-left: 10px
+}
+
+
+.delete {
+    /* position: absolute;
+    display: flex;
+    /* width: 400px; */
+    /* float: right; */
+    /* justify-content: flex-end; */
+    /* background-color: aqua; */ 
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: right;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.delete > p {
+    /* position: absolute;
+    width: 70px;
+    justify-content: flex-end;
+    margin-left: 0px;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: grey;
+    float: right; */
+    position: absolute;
+    background-color: grey;
+    padding: 6px;
+    margin-top: 5px;
+    /* color: #242424; */
+    color: #fff;
+    width: 90px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);}
+
+    
+/* .msg__menu:hover {
+    color: red
+} */
+
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0.05rem);
+    }
+}
+  

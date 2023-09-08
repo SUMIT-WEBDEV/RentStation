@@ -1,0 +1,98 @@
+.footer {
+    background-color: #000;
+    color: #fff
+}
+
+.footer__Wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px 30px 90px; 
+}
+
+.footer__Left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__Left > h3 {
+    font-size: 33px;
+    font-weight: 800;
+    color: #fdd007;
+}
+
+.footer__CN {
+    color:#fdd007;
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+
+.footer__Links {
+    color: rgb(234, 231, 231);
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+
+
+.footer_Mid{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    color: grey;
+}
+
+.footer__Center {
+    margin-top: 18px
+}
+
+.icon {
+    background-color: rgb(81, 78, 78);
+    border-radius: 50%;
+    padding: 9px;
+    display: inline-block;
+    margin: 10px;
+    color: #000
+}
+
+.mid__Line {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+    
+.footer__Right{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Right__Para {
+    max-width: 270px;
+    font-size: 14px;
+    color: grey;
+}
+
+.Right__Para > span {
+    color: rgb(234, 231, 231);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.about__para {
+    padding-top:18px;
+}
+
+.right__Icons {
+    margin-top: 20px
+}
+
+.icons {
+    margin-right: 14px;
+    color:  rgb(81, 78, 78);
+}
+

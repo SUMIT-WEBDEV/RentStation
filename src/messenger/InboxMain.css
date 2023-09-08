@@ -1,0 +1,18 @@
+.inboxMain {
+    display: flex;
+    margin-bottom: 20px
+}
+
+.inboxMain__Left {
+    display: flex;
+    flex: 35%;
+    /* background-color: aqua; */
+}
+
+.inboxMain__Right {
+    display: flex;
+    flex: 65%;
+    /* background-color: yellow;    */
+    margin-top: 15px;
+
+}
